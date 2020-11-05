@@ -16,11 +16,8 @@ Common classification techniques(classifiers):
 
 there are some more computer-intensive(non-linear) models such as GAM, trees, random forests, and boosting, and support vector machines
 
+How does it work?
 
-
-
-
-
-Given a feature vector X and a qualitative response Y, taking values in the set C, the classification task is to build a function C(X) that takse as input feature X and predict its value for Y(C(X) ∈ C). Predict which class belong to which, we estimate probabilities that X belongs to each category in C.
-
+We start with some training observations(x1, y1), ... , （xn, yn) to build a classifier.
+and test this classifier on unseen test data.
 
