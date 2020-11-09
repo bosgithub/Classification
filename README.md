@@ -20,7 +20,11 @@ there are some more computer-intensive(non-linear) models such as GAM, trees, ra
 
 Would linear regression work?
 
-No, linear regression won't work in qualitative responses because for multiclass classification, numerical value would imply ordering of responses.
+No, linear regression won't work in qualitative responses because for：
+
+1. *Multiclass Classification*, class assigned with numerical value would imply ordering of responses. In the case of colors of rainbow, it makes no sense that red is greater than violet.
+
+2. *Binary Classification*, linear regression would fail because we need to output probability of class A or class B, the output must be bounded between 0 and 1, linear regression may produce a value outside of this bound, which is difficult to understand as probability.
 
 ---
 
