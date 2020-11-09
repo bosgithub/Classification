@@ -18,6 +18,8 @@ Some examples would be the color of our eyes{green,brown, blue} or fraudulent em
 
 there are some more computer-intensive(non-linear) models such as GAM, trees, random forests, and boosting, and support vector machines
 
+---
+
 Would linear regression work?
 
 No, linear regression won't work in qualitative responses because for：
@@ -37,6 +39,7 @@ We start by building a classifier with some training observations
 #### Logistic Regression
 Logistic regression models the probability that the response variable belongs to a particular category. (example: Probability of race given the demographic region)
 
+___Logistic Model___:
 
-
+<a href="https://www.codecogs.com/eqnedit.php?latex=p(X)&space;=&space;\frac{e^{\beta_{0}&space;&plus;&space;\beta_{1}*X&space;}}&space;{1&plus;&space;e^{\beta_{0}&space;&plus;&space;\beta_{1}*X}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?p(X)&space;=&space;\frac{e^{\beta_{0}&space;&plus;&space;\beta_{1}*X&space;}}&space;{1&plus;&space;e^{\beta_{0}&space;&plus;&space;\beta_{1}*X}}" title="p(X) = \frac{e^{\beta_{0} + \beta_{1}*X }} {1+ e^{\beta_{0} + \beta_{1}*X}}" /></a>
 
