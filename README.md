@@ -34,4 +34,9 @@ We start by building a classifier with some training observations
 (x1, y1), ... , （xn, yn), x are the features, and y is the response variable. After we obtain our model, we then test this classifier on unseen test data. 
 
 
+#### Logistic Regression
+Logistic regression models the probability that the response variable belongs to a particular category. (example: Probability of race given the demographic region)
+
+
+
 
