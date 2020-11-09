@@ -43,3 +43,12 @@ ___Logistic Model___:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=p(X)&space;=&space;\frac{e^{\beta_{0}&space;&plus;&space;\beta_{1}*X&space;}}&space;{1&plus;&space;e^{\beta_{0}&space;&plus;&space;\beta_{1}*X}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?p(X)&space;=&space;\frac{e^{\beta_{0}&space;&plus;&space;\beta_{1}*X&space;}}&space;{1&plus;&space;e^{\beta_{0}&space;&plus;&space;\beta_{1}*X}}" title="p(X) = \frac{e^{\beta_{0} + \beta_{1}*X }} {1+ e^{\beta_{0} + \beta_{1}*X}}" /></a>
 
+sometimes we prefer to work with odds and log of odds or logits,
+
+Odds:
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{p(X)}{1&space;-&space;p(X)}&space;=&space;{e^{\beta_{0}&space;&plus;&space;\beta_{1}*X&space;}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{p(X)}{1&space;-&space;p(X)}&space;=&space;{e^{\beta_{0}&space;&plus;&space;\beta_{1}*X&space;}}" title="\frac{p(X)}{1 - p(X)} = {e^{\beta_{0} + \beta_{1}*X }}" /></a>
+
+Logit:
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=log\left&space;(&space;\frac{p(X)}{1&space;-&space;p(X)}\right&space;)&space;=&space;{e^{\beta_{0}&space;&plus;&space;\beta_{1}*X&space;}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?log\left&space;(&space;\frac{p(X)}{1&space;-&space;p(X)}\right&space;)&space;=&space;{e^{\beta_{0}&space;&plus;&space;\beta_{1}*X&space;}}" title="log\left ( \frac{p(X)}{1 - p(X)}\right ) = {e^{\beta_{0} + \beta_{1}*X }}" /></a>
