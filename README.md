@@ -10,20 +10,24 @@ Some examples would be the color of our eyes{green,brown, blue} or fraudulent em
 
 #### Common classification techniques(classifiers):
 
-1. Logistic regression
+1. Logistic Regression
 
-2. Linear Discriminant analysis
+2. Linear Discriminant Analysis
 
-3. K-nearest neighbors
+3. K-nearest Neighbors
 
 there are some more computer-intensive(non-linear) models such as GAM, trees, random forests, and boosting, and support vector machines
+
+Would linear regression work?
+
+No, linear regression won't work in qualitative responses because for multiclass classification, numerical value would imply ordering of responses.
 
 ---
 
 #### How does it work?
 
-We start with some training observations(x1, y1), ... , （xn, yn) to build a classifier, and test this classifier on unseen test data.
+We start by building a classifier with some training observations 
+(x1, y1), ... , （xn, yn), x are the features, and y is the response variable. After we obtain our model, we then test this classifier on unseen test data. 
 
-Example:
-Predicting whether a person will default on his credit card payment, on the basis of annual income and monthly credit card balance.
+
 
