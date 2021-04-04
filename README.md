@@ -55,3 +55,4 @@ Logit:
 <a href="https://www.codecogs.com/eqnedit.php?latex=log\left&space;(&space;\frac{p(X)}{1&space;-&space;p(X)}\right&space;)&space;=&space;{e^{\beta_{0}&space;&plus;&space;\beta_{1}*X&space;}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?log\left&space;(&space;\frac{p(X)}{1&space;-&space;p(X)}\right&space;)&space;=&space;{e^{\beta_{0}&space;&plus;&space;\beta_{1}*X&space;}}" title="log\left ( \frac{p(X)}{1 - p(X)}\right ) = {e^{\beta_{0} + \beta_{1}*X }}" /></a>
 
 #### The idea of training the logistic model is to fit our model on the training data to best estimate the beta values. This is done via *Maximum Likelihood Method*.
+
